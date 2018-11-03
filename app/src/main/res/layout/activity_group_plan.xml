@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GroupPlanActivity"
+    android:orientation="vertical"
+    android:gravity="center|top">
+
+    <TextView
+        android:id="@+id/text_wydzial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wydział:" />
+
+    <Spinner
+        android:id="@+id/spinner_wydzial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:id="@+id/text_kierunek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kierunek:" />
+
+    <Spinner
+        android:id="@+id/spinner_kierunek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:id="@+id/text_grupa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grupa:" />
+
+    <Spinner
+        android:id="@+id/spinner_grupa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:id="@+id/text_podgrupa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Podgrupa:" />
+
+    <Spinner
+        android:id="@+id/spinner_podgrupa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown" />
+</LinearLayout>
