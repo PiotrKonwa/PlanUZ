@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".GroupPlanActivity"
+    tools:showIn="@layout/activity_group_plan"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/textWydzial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wydział" />
+
+    <Spinner
+        android:id="@+id/spinnerWydzial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textWydzial"
+        android:layout_alignParentStart="true"
+        android:entries="@array/departments"
+        android:prompt="@string/choose_department" />
+
+    <TextView
+        android:id="@+id/textKierunek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinnerWydzial"
+        android:layout_alignParentStart="true"
+        android:text="Kierunek" />
+
+    <Spinner
+        android:id="@+id/spinnerKierunek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textKierunek"
+        android:layout_alignParentStart="true"
+        android:entries="@array/directions"
+        android:prompt="@string/choose_direction"/>
+
+    <TextView
+        android:id="@+id/textGrupa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinnerKierunek"
+        android:layout_alignParentStart="true"
+        android:text="Grupa" />
+
+    <Spinner
+        android:id="@+id/spinnerGrupa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textGrupa"
+        android:layout_alignParentStart="true"
+        android:entries="@array/groups"
+        android:prompt="@string/choose_group"/>
+
+    <TextView
+        android:id="@+id/textPodgrupa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinnerGrupa"
+        android:layout_alignParentStart="true"
+        android:text="Podgrupa" />
+
+    <Spinner
+        android:id="@+id/spinnerPodgrupa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textPodgrupa"
+        android:layout_alignParentStart="true"
+        android:entries="@array/subgroups"
+        android:prompt="@string/choose_subgroup"/>
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinnerPodgrupa"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="40dp"
+        android:text="Submit" />
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_toEndOf="@+id/textGrupa"
+        android:text="Save" />
+
+    <TextView
+        android:id="@+id/textResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="228dp"
+        android:text="result" />
+
+</RelativeLayout>

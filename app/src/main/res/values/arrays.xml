@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="choose_department">Choose the department:</string>
+    <string-array name="departments">
+        <item>Wydział Artystyczny</item>
+        <item>Wydział Budownictwa, Architektury i Inżynierii Środowiska</item>
+        <item>Wydział Ekonomii i Zarządzania</item>
+        <item>Wydział Fizyki i Astronomii</item>
+        <item>Wydział Humanistyczny</item>
+        <item>Wydział Informatyki, Elektrotechniki i Automatyki</item>
+    </string-array>
+
+    <string name="choose_direction">Choose the direction:</string>
+    <string-array name="directions">
+        <item>Automatyka i robotyka</item>
+        <item>Automatyka i robotyka, Elektrotechnika, Informatyka</item>
+        <item>Biznes elektroniczny</item>
+        <item>Efektywność energetyczna</item>
+        <item>Elektronika i telekomunikacja</item>
+        <item>Elektrotechnika</item>
+        <item>Informatyka</item>
+    </string-array>
+
+    <string name="choose_group">Choose a group:</string>
+    <string-array name="groups">
+        <item>31INF-SP (Informatyka stacjonarne-dzienne pierwszego stopnia z tyt. inżyniera)</item>
+        <item>32INF-SP (Informatyka stacjonarne-dzienne pierwszego stopnia z tyt. inżyniera)</item>
+        <item>33INF-SP (Informatyka stacjonarne-dzienne pierwszego stopnia z tyt. inżyniera)</item>
+    </string-array>
+
+    <string name="choose_subgroup">Choose a group:</string>
+    <string-array name="subgroups">
+        <item>A</item>
+        <item>B</item>
+    </string-array>
+
+</resources>

@@ -1,62 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".GroupPlanActivity"
-    android:orientation="vertical"
-    android:gravity="center|top">
+    tools:context=".GroupPlanActivity">
 
-    <TextView
-        android:id="@+id/text_wydzial"
+    <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Wydział:" />
+        android:theme="@style/AppTheme.AppBarOverlay">
 
-    <Spinner
-        android:id="@+id/spinner_wydzial"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@android:drawable/btn_dropdown"
-        android:spinnerMode="dropdown" />
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
 
-    <TextView
-        android:id="@+id/text_kierunek"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Kierunek:" />
+    </android.support.design.widget.AppBarLayout>
 
-    <Spinner
-        android:id="@+id/spinner_kierunek"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@android:drawable/btn_dropdown"
-        android:spinnerMode="dropdown" />
+    <include layout="@layout/content_group_plan" />
 
-    <TextView
-        android:id="@+id/text_grupa"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Grupa:" />
 
-    <Spinner
-        android:id="@+id/spinner_grupa"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@android:drawable/btn_dropdown"
-        android:spinnerMode="dropdown" />
-
-    <TextView
-        android:id="@+id/text_podgrupa"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Podgrupa:" />
-
-    <Spinner
-        android:id="@+id/spinner_podgrupa"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@android:drawable/btn_dropdown"
-        android:spinnerMode="dropdown" />
-</LinearLayout>
+</android.support.design.widget.CoordinatorLayout>
