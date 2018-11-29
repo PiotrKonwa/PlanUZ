@@ -30,4 +30,5 @@ public class GroupPlanActivity extends AppCompatActivity {
         });
     }
     /////// BORO TEST 1///////
+    ///////////odpowiedź MARCEL///////////
 }
