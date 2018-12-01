@@ -22,7 +22,10 @@
         <activity
             android:name=".GroupPlanActivity"
             android:label="@string/title_activity_group_plan"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PlanActivity"
+            android:label="@string/title_activity_plan"/>
     </application>
 
 </manifest>

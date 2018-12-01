@@ -22,5 +22,4 @@
 
     <include layout="@layout/content_group_plan" />
 
-
 </android.support.design.widget.CoordinatorLayout>

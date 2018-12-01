@@ -1,11 +1,11 @@
 package com.example.piotrkonwa.planuz;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.Spinner;
 import android.widget.TextView;
 
@@ -22,12 +22,16 @@ public class GroupPlanActivity extends AppCompatActivity {
         Spinner spin = (Spinner) findViewById(R.id.spinnerWydzial);
         spin.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             public void onItemSelected(AdapterView<?> spin, View v, int i, long id) {
-                TextView result = (TextView) findViewById(R.id.textResult);
-                result.setText("You chose " + spin.getSelectedItem());
+                //TextView result = (TextView) findViewById(R.id.textResult);
+                //result.setText("You chose " + spin.getSelectedItem());
             }
             public void onNothingSelected(AdapterView<?> parent) {
             }
         });
+    }
+
+    public void goToPlan(View view) {
+        startActivity(new Intent(this, PlanActivity.class));
     }
     /////// BORO TEST 1///////
     ///////////odpowiedź MARCEL///////////

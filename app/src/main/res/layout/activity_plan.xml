@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PlanActivity">
+    <TextView
+        android:id="@+id/textView_plan_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:hint="Tu bedzie grupa" />
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+        <TableRow>
+            <TextView
+                android:text="PG"
+                android:gravity="left"
+                android:padding="2dip" />
+            <TextView
+                android:text="Od"
+                android:gravity="left"
+                android:padding="2dip"/>
+            <TextView
+                android:text="Do"
+                android:gravity="left"
+                android:padding="2dip"/>
+            <TextView
+                android:text="Przedmiot"
+                android:gravity="left"
+                android:padding="2dip" />
+            <TextView
+                android:text="RZ"
+                android:gravity="left"
+                android:padding="2dip" />
+            <TextView
+                android:text="Nauczyciel"
+                android:gravity="left"
+                android:padding="2dip" />
+            <TextView
+                android:text="Sale"
+                android:gravity="left"
+                android:padding="2dip" />
+            <TextView
+                android:text="Terminy/Uwagi"
+                android:gravity="left"
+                android:padding="2dip" />
+        </TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Poniedziałek"
+            android:textStyle="bold"
+            android:background="@color/days_background"/>
+        <TableRow>
+            <TextView
+                android:text="A"
+                android:gravity="left"
+                android:padding="2dip" />
+            <TextView
+                android:text="7:30"
+                android:gravity="left"
+                android:padding="2dip"/>
+            <TextView
+                android:text="9:00"
+                android:gravity="left"
+                android:padding="2dip" />
+            <TextView
+                android:text="Systemy wbudowane"
+                android:gravity="left"
+                android:padding="2dip" />
+            <TextView
+                android:text="P"
+                android:gravity="left"
+                android:padding="2dip" />
+            <TextView
+                android:text="dr inż. Piotr Mróz"
+                android:gravity="left"
+                android:padding="2dip" />
+            <TextView
+                android:text="503 A-2"
+                android:gravity="left"
+                android:padding="2dip" />
+            <TextView
+                android:text="DN/"
+                android:gravity="left"
+                android:padding="2dip" />
+        </TableRow>
+
+    </TableLayout>
+
+
+</LinearLayout>

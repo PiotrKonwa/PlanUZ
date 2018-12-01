@@ -82,7 +82,8 @@
         android:layout_below="@+id/spinnerPodgrupa"
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="40dp"
-        android:text="Submit" />
+        android:text="Submit"
+        android:onClick="goToPlan" />
 
     <Button
         android:id="@+id/buttonSave"
@@ -92,15 +93,5 @@
         android:layout_marginBottom="30dp"
         android:layout_toEndOf="@+id/textGrupa"
         android:text="Save" />
-
-    <TextView
-        android:id="@+id/textResult"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="228dp"
-        android:text="result" />
 
 </RelativeLayout>
