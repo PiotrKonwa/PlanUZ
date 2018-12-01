@@ -13,8 +13,9 @@
         android:hint="Tu bedzie grupa" />
     <TableLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:stretchColumns="1">
+        android:layout_height="wrap_content">
+
+        //wiersz nagłówkowy
         <TableRow>
             <TextView
                 android:text="PG"
@@ -49,6 +50,8 @@
                 android:gravity="left"
                 android:padding="2dip" />
         </TableRow>
+
+        //example tableRow
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -59,7 +62,7 @@
         <TableRow>
             <TextView
                 android:text="A"
-                android:gravity="left"
+                android:gravity="center"
                 android:padding="2dip" />
             <TextView
                 android:text="7:30"
@@ -75,7 +78,7 @@
                 android:padding="2dip" />
             <TextView
                 android:text="P"
-                android:gravity="left"
+                android:gravity="center"
                 android:padding="2dip" />
             <TextView
                 android:text="dr inż. Piotr Mróz"
@@ -91,7 +94,10 @@
                 android:padding="2dip" />
         </TableRow>
 
+        <ListView
+            android:id="@+id/listView_plan_monday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+        />
     </TableLayout>
-
-
 </LinearLayout>

@@ -21,8 +21,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/textWydzial"
         android:layout_alignParentStart="true"
-        android:entries="@array/departments"
-        android:prompt="@string/choose_department" />
+        android:prompt="@string/choose_department"
+        android:entries="@array/departments" />
 
     <TextView
         android:id="@+id/textKierunek"

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/list_plan_pg"
+        android:text="A"
+        android:gravity="center"
+        android:padding="2dip" />
+    <TextView
+        android:id="@+id/list_plan_od"
+        android:text="7:30"
+        android:gravity="left"
+        android:padding="2dip"/>
+    <TextView
+        android:id="@+id/list_plan_do"
+        android:text="9:00"
+        android:gravity="left"
+        android:padding="2dip" />
+    <TextView
+        android:id="@+id/list_plan_przedmiot"
+        android:text="Sys Wbudowane"
+        android:gravity="left"
+        android:padding="2dip" />
+    <TextView
+        android:id="@+id/list_plan_rz"
+        android:text="P"
+        android:gravity="center"
+        android:padding="2dip" />
+    <TextView
+        android:id="@+id/list_plan_nauczyciel"
+        android:text="dr inż. Piotr Mróz"
+        android:gravity="left"
+        android:padding="2dip" />
+    <TextView
+        android:id="@+id/list_plan_sala"
+        android:text="503 A-2"
+        android:gravity="left"
+        android:padding="2dip" />
+    <TextView
+        android:id="@+id/list_plan_uwagi"
+        android:text="DN"
+        android:gravity="left"
+        android:padding="2dip" />
+</TableRow>

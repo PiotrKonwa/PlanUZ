@@ -7,7 +7,6 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Spinner;
-import android.widget.TextView;
 
 
 public class GroupPlanActivity extends AppCompatActivity {
@@ -33,11 +32,4 @@ public class GroupPlanActivity extends AppCompatActivity {
     public void goToPlan(View view) {
         startActivity(new Intent(this, PlanActivity.class));
     }
-    /////// BORO TEST 1///////
-    ///////////odpowiedź MARCEL///////////
-
-
-
-
-    /////////TEST///////////
 }
