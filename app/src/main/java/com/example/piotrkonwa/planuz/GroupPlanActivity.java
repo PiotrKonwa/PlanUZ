@@ -21,15 +21,13 @@ public class GroupPlanActivity extends AppCompatActivity {
         Spinner spin = (Spinner) findViewById(R.id.spinnerWydzial);
         spin.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             public void onItemSelected(AdapterView<?> spin, View v, int i, long id) {
-                //TextView result = (TextView) findViewById(R.id.textResult);
-                //result.setText("You chose " + spin.getSelectedItem());
             }
+
             public void onNothingSelected(AdapterView<?> parent) {
             }
         });
     }
-
-    public void goToPlan(View view) {
+        public void goToPlan(View view) {
         startActivity(new Intent(this, PlanActivity.class));
     }
 }

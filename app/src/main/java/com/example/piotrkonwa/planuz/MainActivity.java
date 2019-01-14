@@ -49,5 +49,4 @@ public class MainActivity extends AppCompatActivity {
     public void openGroupPlan(View view) {
         startActivity(new Intent(MainActivity.this, GroupPlanActivity.class));
     }
-    ////test MARCEL////////
 }

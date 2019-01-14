@@ -2,45 +2,47 @@
 <TableRow
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
     <TextView
         android:id="@+id/list_plan_pg"
-        android:text="A"
+        android:hint="a"
         android:gravity="center"
         android:padding="2dip" />
     <TextView
         android:id="@+id/list_plan_od"
-        android:text="7:30"
+        android:hint="1:30"
         android:gravity="left"
         android:padding="2dip"/>
     <TextView
         android:id="@+id/list_plan_do"
-        android:text="9:00"
+        android:hint="2:00"
         android:gravity="left"
         android:padding="2dip" />
     <TextView
         android:id="@+id/list_plan_przedmiot"
-        android:text="Sys Wbudowane"
+        android:hint="Sys Wbudowane"
         android:gravity="left"
         android:padding="2dip" />
     <TextView
         android:id="@+id/list_plan_rz"
-        android:text="P"
+        android:hint="p"
         android:gravity="center"
         android:padding="2dip" />
+
     <TextView
         android:id="@+id/list_plan_nauczyciel"
-        android:text="dr inż. Piotr Mróz"
         android:gravity="left"
-        android:padding="2dip" />
+        android:padding="2dip"
+        android:hint="dr inż. Piotr" />
     <TextView
         android:id="@+id/list_plan_sala"
-        android:text="503 A-2"
+        android:hint="503"
         android:gravity="left"
         android:padding="2dip" />
     <TextView
         android:id="@+id/list_plan_uwagi"
-        android:text="DN"
+        android:hint="DN"
         android:gravity="left"
         android:padding="2dip" />
 </TableRow>

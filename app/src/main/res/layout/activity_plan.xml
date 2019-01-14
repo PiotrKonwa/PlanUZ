@@ -61,11 +61,11 @@
             android:background="@color/days_background"/>
         <TableRow>
             <TextView
-                android:text="A"
+                android:hint="A"
                 android:gravity="center"
                 android:padding="2dip" />
             <TextView
-                android:text="7:30"
+                android:hint="2:30"
                 android:gravity="left"
                 android:padding="2dip"/>
             <TextView
